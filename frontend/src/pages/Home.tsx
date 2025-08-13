@@ -7,7 +7,7 @@ import {
   BarChart3, 
   PieChart, 
   ScatterChart, 
-  Cube, 
+  Box, 
   Download,
   FileSpreadsheet,
   Zap,
@@ -68,8 +68,8 @@ const Home: React.FC = () => {
     { name: 'Line Charts', icon: BarChart3, description: 'Great for showing trends over time' },
     { name: 'Pie Charts', icon: PieChart, description: 'Ideal for showing proportions' },
     { name: 'Scatter Plots', icon: ScatterChart, description: 'Excellent for correlation analysis' },
-    { name: '3D Column Charts', icon: Cube, description: 'Advanced 3D visualizations' },
-    { name: '3D Scatter Plots', icon: Cube, description: 'Multi-dimensional data analysis' }
+    { name: '3D Column Charts', icon: Box, description: 'Advanced 3D visualizations' },
+    { name: '3D Scatter Plots', icon: Box, description: 'Multi-dimensional data analysis' }
   ];
 
   return (
@@ -255,3 +255,4 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
